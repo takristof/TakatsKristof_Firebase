@@ -11,6 +11,8 @@ public class Varosok {
         this.lakossag = lakossag;
     }
 
+    public Varosok(){}
+
     public String getVaros() {
         return varos;
     }
