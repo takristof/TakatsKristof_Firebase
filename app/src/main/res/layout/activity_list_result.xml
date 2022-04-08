@@ -5,17 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ListResultActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
 
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1"
         android:padding="5dp"
         android:id="@+id/varosListView"/>
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnListVissza"
+        android:text="Vissza"/>
 
 
 </LinearLayout>

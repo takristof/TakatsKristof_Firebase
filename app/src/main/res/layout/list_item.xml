@@ -15,12 +15,14 @@
         android:layout_height="wrap_content"
         android:text="Ország "
         android:textSize="20sp"
-        android:id="@+id/textViewOrszag"/>
+        android:id="@+id/textViewOrszag"
+        android:layout_marginLeft="25dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lakosság "
         android:textSize="20sp"
-        android:id="@+id/textViewLakossag"/>
+        android:id="@+id/textViewLakossag"
+        android:layout_marginLeft="25dp"/>
 
 </LinearLayout>
